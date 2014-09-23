@@ -6,7 +6,6 @@
 -->
 <project name="DataStructures">
 	<description>A collection of data structures for code katas.</description>
-	<property name="debug" value="true" overwrite="true" />
 	<property name="solution" value="DataStructures.sln" />
 	<property name="tests.output" value="_testoutput" />
 	
@@ -24,7 +23,7 @@
 	
 	<target name="build" depends="nuget">
 		<msbuild project="${solution}">
-			<property name="${debug}" value="true" />
+			<property name="Configuration" value="Release" />
 			<arg value="/m" />
 		</msbuild>
 	</target>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DataStructures</id>
+    <version>1.0.0</version>
+    <authors>neverendingqs</authors>
+    <owners>neverendingqs</owners>
+    <projectUrl>https://github.com/codekata116/datastructures-csharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A set of custom C# data structures to complete code katas.</description>
+    <releaseNotes>Initial binaries.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>C# CSharp CodeKata Code Kata Practice Data Structure</tags>
+  </metadata>
+</package>

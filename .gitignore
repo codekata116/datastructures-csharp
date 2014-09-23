@@ -175,3 +175,6 @@ FakesAssemblies/
 
 # Testing
 _testoutput
+
+# Packaging
+_nugetpackage
