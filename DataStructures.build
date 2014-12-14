@@ -22,6 +22,7 @@
 	</target>
 	
 	<target name="build" depends="nuget">
+		<loadtasks assembly="packages\NAnt.Contrib.Portable.0.92\tools\NAnt.Contrib.Tasks.dll" />
 		<msbuild project="${solution}">
 			<property name="Configuration" value="Release" />
 			<arg value="/m" />

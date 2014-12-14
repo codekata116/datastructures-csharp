@@ -15,7 +15,6 @@ A NuGet is available at (location to be provided).
 
 Requirements
 ------------
-* NAnt and NAntContrib extension is installed
 * NuGet.exe is in PATH
 
 build.bat
