@@ -1,0 +1,7 @@
+language: csharp
+solution: DataStructures.sln
+install:
+  - nuget restore DataStructures.sln
+script:
+  - xbuild /p:Configuration=Release DataStructures.sln
+  - mono ./packages/NUnit.Runners.2.6.3/tools/nunit-console.exe ./bin/DataStructuresTests.dll
