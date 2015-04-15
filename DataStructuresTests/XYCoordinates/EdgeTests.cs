@@ -14,9 +14,7 @@ namespace DataStructures.XYCoordinates {
 		private Edge edgeAB;
 		private Edge edgeAC;
 		private Edge edgeAD;
-		private Edge edgeBC;
 		private Edge edgeBD;
-		private Edge edgeCD;
 
 		[SetUp]
 		public void Setup() {
@@ -58,22 +56,10 @@ namespace DataStructures.XYCoordinates {
 				// weight ~= 6.3
 			};
 
-			this.edgeBC = new Edge {
-				StartNode = this.nodeB,
-				EndNode = this.nodeC
-				// weight ~= 6.3
-			};
-
 			this.edgeBD = new Edge {
 				StartNode = this.nodeB,
 				EndNode = this.nodeD
 				// weight = 2.0
-			};
-
-			this.edgeCD = new Edge {
-				StartNode = this.nodeC,
-				EndNode = this.nodeD
-				// weight = 6.0
 			};
 		}
 
